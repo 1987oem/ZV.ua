@@ -1,6 +1,6 @@
 <?php
 
-$recepient = "ant3dstudio@gmail.com";
+$recepient = "1987oem@gmail.com";
 
 $email = trim($_POST["email"]);
 $phone = trim($_POST["phone"]);
