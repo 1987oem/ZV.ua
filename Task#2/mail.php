@@ -27,7 +27,7 @@ if (!preg_match($regex, $email)) {
 /********************* for user send email about answer    ********************/
 $subject = "Hello";
 $message = 'New msg from telephone '.$phone.' '.$email;
-$headers = "MIME-Version: 1.0" . "\r\n" . "Content-type: text/html; charset=UTF-8" . "\r\n" . "From: admin@ant3dstudio.com" ;
+$headers = "MIME-Version: 1.0" . "\r\n" . "Content-type: text/html; charset=UTF-8" . "\r\n" . "From: 1987oem@gmail.com" ;
 
 mail($recepient, $subject, $message, $headers);
 echo 'Mail send'
